@@ -53,8 +53,6 @@ Each ticket includes:
 - `GET /tickets` – List all tickets (**Admin only**)
 - `PUT /tickets/{id}` – Update ticket status and assignment (**Admin only**)
 - `GET /tickets/stats` – Show ticket counts by status (**Admin only**)
-
-#### ⭐ Optional (Bonus)
 - `GET /tickets/{id}` – Get a specific ticket’s details (allowed to **creator** and **assigned admin**)
 - `DELETE /tickets/{id}` – Delete a ticket (**Admin only**)
 
@@ -64,7 +62,9 @@ Each ticket includes:
 - ASP.NET Core Web API
 - JWT Authentication
 - Entity Framework Core
-- MSSQL (or SQLite for local dev)
+- MSSQL
+- MediateR
+- CQRS
 
 ---
 
